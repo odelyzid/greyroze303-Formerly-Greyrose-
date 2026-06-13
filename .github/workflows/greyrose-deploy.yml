@@ -62,6 +62,9 @@ jobs:
           dotnet publish ${{ env.CSPROJ }} -c Release -r win-x64 --self-contained true `
             -p:PublishSingleFile=true -o publish/win-x64
 
+      - name: Restore (net8.0 for Linux)
+        run: dotnet restore ${{ env.CSPROJ }} -p:TargetFramework=net8.0
+
       - name: Publish (linux-x64 self-contained)
         run: |
           dotnet publish ${{ env.CSPROJ }} -c Release -r linux-x64 --self-contained true `
