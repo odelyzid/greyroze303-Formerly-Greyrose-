@@ -1,0 +1,16 @@
+<Objects>
+    <Class Name="class CharacterRegistry">
+        <m_finishedTips>GID:1452024</m_finishedTips>
+        <m_finishedTips>GID:81366</m_finishedTips>
+        <m_activeQuestId>GID:0</m_activeQuestId>
+        <m_activeGoalId>1042437209</m_activeGoalId>
+        <m_activeGoalSetByPlayer>1</m_activeGoalSetByPlayer>
+        <m_crownShopSettings>
+            <Class Name="class CrownShopSettings">
+                <m_saleFilter>0</m_saleFilter>
+                <m_newUsableFilter>1</m_newUsableFilter>
+                <m_buttonView>1</m_buttonView>
+            </Class>
+        </m_crownShopSettings>
+    </Class>
+</Objects>

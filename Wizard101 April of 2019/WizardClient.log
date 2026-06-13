@@ -1,0 +1,15 @@
+05/22/26 06:22:35 [DBGM] CORE_SEER       WizardGraphicalClient::Initialize Window name = Wizard101
+05/22/26 06:22:35 [STAT] CORE_SEER       Wizard Graphical Client version 'W.1.390.0'; revision ''. Data version ''.
+05/22/26 06:22:35 [ERRO] CORE_SEER        379335132 Could not open ConfigFile PatchConfig.xml for reading.
+05/22/26 06:22:35 [CRIT] PATCHER          182676802 PatchClientInterface::StartPatching could not load PatchConfig.xml
+05/22/26 06:22:35 [ERRO] CORE_SEER        379335132 Could not open ConfigFile PatchConfig.xml for reading.
+05/22/26 06:22:35 [CRIT] PATCHER          182676802 PatchClientInterface::StartPatching could not load PatchConfig.xml
+05/22/26 06:22:35 [DBGM] CORE_SEER       StringTable.xml file does not exist for the English language. Using default values
+05/22/26 06:22:35 [STAT] CORE_SEER       LOCALE = English
+05/22/26 06:22:35 [ERRO] MessageManager  2023014567 MessageManager::LoadMessageModule: RequestAsset failed for 'BaseMessages.xml'.
+05/22/26 06:22:35 [ERRO] MessageManager  2023014567 MessageManager::LoadMessageModule: RequestAsset failed for 'ExtendedBaseMessages.xml'.
+05/22/26 06:22:35 [ERRO] MessageManager  2023014567 MessageManager::LoadMessageModule: RequestAsset failed for 'LoginMessages.xml'.
+05/22/26 06:22:35 [ERRO] MessageManager  2023014567 MessageManager::LoadMessageModule: RequestAsset failed for 'GameMessages.xml'.
+05/22/26 06:22:35 [ERRO] MessageManager  2023014567 MessageManager::LoadMessageModule: RequestAsset failed for 'AISClientMessages.xml'.
+05/22/26 06:22:35 [ERRO] MessageManager  2023014567 MessageManager::LoadMessageModule: RequestAsset failed for 'WizardMessages.xml'.
+05/22/26 06:22:35 [DBGM] CORE_SEER       ERROR: "Could not load WizardMessages.xml!", File: .\WizardGraphicalClient.cpp, Line: 8706

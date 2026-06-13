@@ -1,0 +1,324 @@
+<?xml version="1.0" ?>
+<LoginMessages>
+  <_ProtocolInfo>
+    <RECORD>
+      <ServiceID TYPE="UBYT">7</ServiceID>
+      <ProtocolType TYPE="STR">LOGIN</ProtocolType>
+      <ProtocolVersion TYPE="INT">1</ProtocolVersion>
+      <ProtocolDescription TYPE="STR">Login Server Messages</ProtocolDescription>
+    </RECORD>
+  </_ProtocolInfo>
+  <MSG_CHARACTERINFO>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">1</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_CHARACTERINFO</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Character Info</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_CharacterInfo</_MsgHandler>
+      <CharacterInfo TYPE="STR"></CharacterInfo>
+    </RECORD>
+  </MSG_CHARACTERINFO>
+  <MSG_CHARACTERLIST>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">2</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_CHARACTERLIST</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Finished Sending the Character List.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_CharacterList</_MsgHandler>
+      <Error TYPE="UINT"></Error>
+    </RECORD>
+  </MSG_CHARACTERLIST>
+  <MSG_CHARACTERSELECTED>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">3</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_CHARACTERSELECTED</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Character successfully selected.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_CharacterSelected</_MsgHandler>
+      <IP TYPE="STR"></IP>
+      <TCPPort TYPE="INT"></TCPPort>
+      <UDPPort TYPE="INT"></UDPPort>
+      <Key TYPE="STR"></Key>
+      <UserID TYPE="GID"></UserID>
+      <CharID TYPE="GID"></CharID>
+      <ZoneID TYPE="GID"></ZoneID>
+      <ZoneName TYPE="STR"></ZoneName>
+      <Location TYPE="STR"></Location>
+      <Slot TYPE="INT"></Slot>
+      <PrepPhase TYPE="INT"></PrepPhase>
+      <Error TYPE="INT"></Error>
+      <LoginServer TYPE="STR"></LoginServer>
+    </RECORD>
+  </MSG_CHARACTERSELECTED>
+  <MSG_CREATECHARACTER>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">4</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_CREATECHARACTER</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Client sends this to try to create a new character.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_CreateCharacter</_MsgHandler>
+      <CreationInfo TYPE="STR"></CreationInfo>
+    </RECORD>
+  </MSG_CREATECHARACTER>
+  <MSG_CREATECHARACTERRESPONSE>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">5</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_CREATECHARACTERRESPONSE</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Server sends this when character creation is completed.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_CreateCharacterResponse</_MsgHandler>
+      <ErrorCode TYPE="INT"></ErrorCode>
+    </RECORD>
+  </MSG_CREATECHARACTERRESPONSE>
+  <MSG_DELETECHARACTER>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">6</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_DELETECHARACTER</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Client has requested a character to be deleted permanently.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_DeleteCharacter</_MsgHandler>
+      <CharID TYPE="GID"></CharID>
+    </RECORD>
+  </MSG_DELETECHARACTER>
+  <MSG_DELETECHARACTERRESPONSE>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">7</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_DELETECHARACTERRESPONSE</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Server has confirmed/denied a deletion.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_DeleteCharacterResponse</_MsgHandler>
+      <ErrorCode TYPE="INT"></ErrorCode>
+    </RECORD>
+  </MSG_DELETECHARACTERRESPONSE>
+  <MSG_REQUESTCHARACTERLIST>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">8</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_REQUESTCHARACTERLIST</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Request Character List.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_RequestCharacterList</_MsgHandler>
+    </RECORD>
+  </MSG_REQUESTCHARACTERLIST>
+  <MSG_REQUESTSERVERLIST>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">9</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_REQUESTSERVERLIST</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Request Server List.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_RequestServerList</_MsgHandler>
+    </RECORD>
+  </MSG_REQUESTSERVERLIST>
+  <MSG_SELECTCHARACTER>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">10</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_SELECTCHARACTER</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Select Character.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_SelectCharacter</_MsgHandler>
+      <CharID TYPE="GID"></CharID>
+      <ServerName TYPE="STR"></ServerName>
+    </RECORD>
+  </MSG_SELECTCHARACTER>
+  <MSG_SERVERLIST>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">11</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_SERVERLIST</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Server List.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_ServerList</_MsgHandler>
+    </RECORD>
+  </MSG_SERVERLIST>
+  <MSG_STARTCHARACTERLIST>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">12</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_STARTCHARACTERLIST</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Start Sending the Character List</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_StartCharacterList</_MsgHandler>
+      <LoginServer TYPE="STR"></LoginServer>
+      <PurchasedCharacterSlots TYPE="INT"></PurchasedCharacterSlots>
+    </RECORD>
+  </MSG_STARTCHARACTERLIST>
+  <MSG_USER_AUTHEN>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">13</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_USER_AUTHEN</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">User Authentication Request Message.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_UserAuthen</_MsgHandler>
+      <_MsgAccessLvl TYPE="UBYT" NOXFER="TRUE">1</_MsgAccessLvl>
+      <Rec1 TYPE="STR"></Rec1>
+      <Version TYPE="STR"></Version>
+      <Revision TYPE="STR"></Revision>
+      <DataRevision TYPE="STR"></DataRevision>
+      <CRC TYPE="STR"></CRC>
+      <MachineID TYPE="GID"></MachineID>
+      <PatchClientID TYPE="STR"></PatchClientID>
+    </RECORD>
+  </MSG_USER_AUTHEN>
+  <MSG_USER_AUTHEN_RSP>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">14</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_USER_AUTHEN_RSP</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">User Authentication Response Message.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_UserAuthenRsp</_MsgHandler>
+      <_MsgAccessLvl TYPE="UBYT" NOXFER="TRUE">1</_MsgAccessLvl>
+      <Error TYPE="INT"></Error>
+      <UserID TYPE="GID"></UserID>
+      <Rec1 TYPE="STR"></Rec1>
+      <Reason TYPE="STR"></Reason>
+      <TimeStamp TYPE="STR"></TimeStamp>
+      <PayingUser TYPE="INT"></PayingUser>
+      <Flags TYPE="INT"></Flags>
+    </RECORD>
+  </MSG_USER_AUTHEN_RSP>
+  <MSG_USER_VALIDATE>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">15</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_USER_VALIDATE</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">User Validation Request Message.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_UserValidate</_MsgHandler>
+      <_MsgAccessLvl TYPE="UBYT" NOXFER="TRUE">1</_MsgAccessLvl>
+      <UserID TYPE="GID"></UserID>
+      <PassKey3 TYPE="STR"></PassKey3>
+      <MachineID TYPE="GID"></MachineID>
+      <Locale TYPE="STR"></Locale>
+      <PatchClientID TYPE="STR"></PatchClientID>
+    </RECORD>
+  </MSG_USER_VALIDATE>
+  <MSG_USER_VALIDATE_RSP>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">16</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_USER_VALIDATE_RSP</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">User Validation Response Message.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_UserValidateRsp</_MsgHandler>
+      <_MsgAccessLvl TYPE="UBYT" NOXFER="TRUE">1</_MsgAccessLvl>
+      <Error TYPE="INT"></Error>
+      <Reason TYPE="STR"></Reason>
+      <UserID TYPE="GID"></UserID>
+      <TimeStamp TYPE="STR"></TimeStamp>
+      <PayingUser TYPE="INT"></PayingUser>
+      <Flags TYPE="INT"></Flags>
+    </RECORD>
+  </MSG_USER_VALIDATE_RSP>
+  <MSG_DISCONNECT_LOGIN_AFK>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">17</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_DISCONNECT_LOGIN_AFK</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Telling the client that its being disconnected.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_Disconnect_Login_Afk</_MsgHandler>
+      <Warning TYPE="BYT"></Warning>
+    </RECORD>
+  </MSG_DISCONNECT_LOGIN_AFK>
+  <MSG_LOGIN_NOT_AFK>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">18</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_LOGIN_NOT_AFK</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Client telling the server that something's going on</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_Login_Not_Afk</_MsgHandler>
+      <BadgeNameID TYPE="UINT"></BadgeNameID>
+    </RECORD>
+  </MSG_LOGIN_NOT_AFK>
+  <MSG_LOGINSERVERSHUTDOWN>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">19</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_LOGINSERVERSHUTDOWN</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Notify the client that the Login server's shutting down.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_ServerShutdown</_MsgHandler>
+      <Message TYPE="UINT"></Message>
+    </RECORD>
+  </MSG_LOGINSERVERSHUTDOWN>
+  <MSG_USER_ADMIT_IND>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">20</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_USER_ADMIT_IND</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Indicates whether the user is permitted to enter the game.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_UserAdmitInd</_MsgHandler>
+      <Status TYPE="INT"></Status>
+      <PositionInQueue TYPE="UINT"></PositionInQueue>
+    </RECORD>
+  </MSG_USER_ADMIT_IND>
+  <MSG_WEBCHARACTERINFO>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">21</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_WEBCHARACTERINFO</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Web Character Info</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_WebCharacterInfo</_MsgHandler>
+      <Name TYPE="INT"></Name>
+      <Gender TYPE="INT"></Gender>
+      <School TYPE="INT"></School>
+    </RECORD>
+  </MSG_WEBCHARACTERINFO>
+  <MSG_USER_AUTHEN_V2>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">22</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_USER_AUTHEN_V2</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">User Authentication Request Message.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_UserAuthenV2</_MsgHandler>
+      <_MsgAccessLvl TYPE="UBYT" NOXFER="TRUE">1</_MsgAccessLvl>
+      <Rec1 TYPE="STR"></Rec1>
+      <Version TYPE="STR"></Version>
+      <Revision TYPE="STR"></Revision>
+      <DataRevision TYPE="STR"></DataRevision>
+      <CRC TYPE="STR"></CRC>
+      <MachineID TYPE="GID"></MachineID>
+      <Locale TYPE="STR"></Locale>
+      <PatchClientID TYPE="STR"></PatchClientID>
+    </RECORD>
+  </MSG_USER_AUTHEN_V2>
+  <MSG_SAVECHARACTER>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">23</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_SAVECHARACTER</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Save Character.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_SaveCharacter</_MsgHandler>
+      <CharID TYPE="GID"></CharID>
+      <Success TYPE="UBYT"></Success>
+    </RECORD>
+  </MSG_SAVECHARACTER>
+  <MSG_WEB_AUTHEN>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">24</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_WEB_AUTHEN</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">User Authentication From Web Request Message.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_WebAuthen</_MsgHandler>
+      <_MsgAccessLvl TYPE="UBYT" NOXFER="TRUE">1</_MsgAccessLvl>
+      <Rec1 TYPE="STR"></Rec1>
+      <Version TYPE="STR"></Version>
+      <Revision TYPE="STR"></Revision>
+      <DataRevision TYPE="STR"></DataRevision>
+      <CRC TYPE="STR"></CRC>
+      <MachineID TYPE="GID"></MachineID>
+    </RECORD>
+  </MSG_WEB_AUTHEN>
+  <MSG_WEB_VALIDATE>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">25</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_WEB_VALIDATE</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">User Validation Request Message From Web.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_WebValidate</_MsgHandler>
+      <_MsgAccessLvl TYPE="UBYT" NOXFER="TRUE">1</_MsgAccessLvl>
+      <UserID TYPE="GID"></UserID>
+      <PassKey3 TYPE="STR"></PassKey3>
+      <MachineID TYPE="GID"></MachineID>
+      <Locale TYPE="STR"></Locale>
+    </RECORD>
+  </MSG_WEB_VALIDATE>
+  <MSG_CHANGECHARACTERNAME>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">26</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_CHANGECHARACTERNAME</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">Request to change a character name from the client.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_ChangeCharacterName</_MsgHandler>
+      <CharID TYPE="GID"></CharID>
+      <NewName TYPE="WSTR"></NewName>
+      <ServerName TYPE="STR"></ServerName>
+    </RECORD>
+  </MSG_CHANGECHARACTERNAME>
+  <MSG_USER_AUTHEN_V3>
+    <RECORD>
+      <_MsgOrder TYPE="UBYT" NOXFER="TRUE">27</_MsgOrder>
+      <_MsgName TYPE="STR" NOXFER="TRUE">MSG_USER_AUTHEN_V3</_MsgName>
+      <_MsgDescription TYPE="STR" NOXFER="TRUE">User Authentication Request Message.</_MsgDescription>
+      <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_UserAuthenV3</_MsgHandler>
+      <_MsgAccessLvl TYPE="UBYT" NOXFER="TRUE">1</_MsgAccessLvl>
+      <Rec1 TYPE="STR"></Rec1>
+      <Version TYPE="STR"></Version>
+      <Revision TYPE="STR"></Revision>
+      <DataRevision TYPE="STR"></DataRevision>
+      <CRC TYPE="STR"></CRC>
+      <MachineID TYPE="GID"></MachineID>
+      <Locale TYPE="STR"></Locale>
+      <PatchClientID TYPE="STR"></PatchClientID>
+      <IsSteamPatcher TYPE="UINT"></IsSteamPatcher>
+    </RECORD>
+  </MSG_USER_AUTHEN_V3>  
+</LoginMessages>
+

@@ -1,0 +1,32 @@
+[package]
+name = "kiclass"
+version = "0.7.1"
+edition = "2024"
+description = "Python bindings and Rust tooling for working with KingsIsle class and binary XML data"
+readme = "README.md"
+repository = "https://github.com/Spiral404/kiclass"
+homepage = "https://github.com/Spiral404/kiclass"
+authors = ["Spiral404 <noreply@spiral404.com>"]
+keywords = ["wizard101", "kingsisle", "binary-xml", "pyo3"]
+categories = ["parser-implementations", "encoding"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+parking_lot = "0.12.3"
+bitstream-io = "2.6.0"
+xml-rs = "0.8.3"
+ahash = "0.8.11"
+indexmap = "2.7.1"
+pyo3 = { version = "0.23.5", features = ["extension-module", "anyhow", "abi3", "abi3-py310"] }
+bitflags = "2.9.0"
+anyhow = "1.0.97"
+flate2 = "1.1.0"
+smol_str = "0.3.2"
+serde_json = { version = "1.0.140", features = ["preserve_order", "float_roundtrip"] }
+uuid = { version = "1.15.1", features = ["serde"] }
+serde = { version = "1.0.219", features = ["derive"] }
+error-stack = { version = "0.5.0", features = ["anyhow"] }
+log = "0.4.26"
+pyo3-log = "0.12.1"

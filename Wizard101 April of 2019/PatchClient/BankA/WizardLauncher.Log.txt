@@ -1,0 +1,50 @@
+05/22/26 06:28:52 [WARN] CORE_PATCH_CLNT PatchClientConfig.cpp 0154 Unable to read optional parameter PatchClientDataDir from the config file.
+05/22/26 06:28:52 [WARN] CORE_PATCH_CLNT PatchClientConfig.cpp 0154 Unable to read optional parameter LocalNewsURL from the config file.
+05/22/26 06:28:52 [WARN] CORE_PATCH_CLNT PatchClientConfig.cpp 0154 Unable to read optional parameter PatchInfoDirectory from the config file.
+05/22/26 06:28:53 [STAT] KIPatchClient   PatchClientUI.cpp    0363 Patch found, downloading fail safe patch: CRC = 0, URL = 
+05/22/26 06:28:53 [ERRO] KIPatchClient   PatchClientUI.cpp    0390 1085608540 Failed to download fail safe patch from 
+05/22/26 06:28:55 [STAT] PLAT_NET        KIOSSocket.cpp       1171 gethostname(DESKTOP-LFQBR4J) returned 0
+05/22/26 06:28:55 [STAT] PATCH_CLIENT    PatchInterface.cpp   1194 CPatchInterface::GenerateDiagnosticData() NeverRunGame 0, NeverLoggedIn 0
+05/22/26 06:28:55 [STAT] RESMGR          ResourceManager.cpp  0206 ResourceManager releasing data.
+05/22/26 06:28:55 [STAT] RESMGR          ResourceManager.cpp  0198 Loading CSR data.
+05/22/26 06:28:55 [STAT] MessageManager  messagemanager.cpp   0179    Protocol Type: SYSTEM : All Common System Messages - Not Game Messages
+05/22/26 06:28:55 [STAT] MessageManager  messagemanager.cpp   0205    Message Module: SYSTEM : Loaded OK
+05/22/26 06:28:55 [STAT] MessageManager  messagemanager.cpp   0179    Protocol Type: EXTENDEDBASE : Lower level messages for passing DML and RAW string
+05/22/26 06:28:55 [STAT] MessageManager  messagemanager.cpp   0205    Message Module: EXTENDEDBASE : Loaded OK
+05/22/26 06:28:55 [STAT] MessageManager  messagemanager.cpp   0179    Protocol Type: LOGIN : Login Server Messages
+05/22/26 06:28:55 [STAT] MessageManager  messagemanager.cpp   0205    Message Module: LOGIN : Loaded OK
+05/22/26 06:28:55 [STAT] CURRENT_STATE   PatchInterface.cpp   1082 CPatchInterface::OnPCStateChange() m_currentState='Unauthen', a_newState=1.
+05/22/26 06:28:55 [STAT] PATCH_CLIENT    PatchInterface.cpp   0549 Loading webpages in default mode.
+05/22/26 06:28:55 [STAT] PATCH_CLIENT    PatchInterface.cpp   0588 Visiting URL: https://www.wizard101.com/patchClient/Paid
+05/22/26 06:28:55 [STAT] PATCH_CLIENT    PatchInterface.cpp   0592 CPatchInterface::InitDialog() GotoPage(https://www.wizard101.com/patchClient/Paid)
+05/22/26 06:28:55 [STAT] PATCH_CLIENT    PatchInterface.cpp   0739 GotoPage - https://www.wizard101.com/patchClient/Paid
+05/22/26 06:28:55 [STAT] PATCH_CLIENT    PatchInterface.cpp   0256 CPatchClientUIDlg::GotoPage() Navigate(https://www.wizard101.com/patchClient/Paid)
+05/22/26 06:28:58 [STAT] PATCH_CLIENT    PatchInterface.cpp   0256 Web page https://www.wizard101.com/patchClient/Paid document has completed loading
+05/22/26 06:29:04 [STAT] CORE_PATCH_CLNT PatchClient.cpp      0315 PatchClient::Start
+05/22/26 06:29:04 [STAT] CORE_PATCH_CLNT PatchClient.cpp      0694 PatchClient::VerifyUser calling AuthenticateUser without retry logic with timeout=20000 number of tries=1
+05/22/26 06:29:04 [STAT] CORE_PATCH_CLNT PatchClientLogin.cpp 0229 Connecting to Login Server
+05/22/26 06:29:04 [STAT] PLAT_NET        KIOSSocket.cpp       1171 gethostname(DESKTOP-LFQBR4J) returned 0
+05/22/26 06:29:04 [STAT] PLAT_NET        ClientSession.cpp    0247 Server address (login.us.wizard101.com) resolved to (169.254.83.107) .
+05/22/26 06:29:04 [STAT] CURRENT_STATE   PatchInterface.cpp   1082 CPatchInterface::OnPCStateChange() m_currentState='Unauthen', a_newState=2.
+05/22/26 06:29:04 [STAT] CORE_PATCH_CLNT PatchClientLogin.cpp 0556 Connected to Login Server (Phase 1)
+05/22/26 06:29:04 [STAT] CORE_PATCH_CLNT PatchClientLogin.cpp 0377 Connected to Login Server (Phase 2)
+05/22/26 06:29:04 [DBGM] PLAT_NET        PatchClientLogin.cpp 0398    SID:        4513
+05/22/26 06:29:04 [DBGM] PLAT_NET        PatchClientLogin.cpp 0399    TimeSecs:   1779424144
+05/22/26 06:29:04 [DBGM] PLAT_NET        PatchClientLogin.cpp 0400    TimeMillis: 800
+05/22/26 06:29:04 [DBGM] PLAT_NET        PatchClientLogin.cpp 0401    ClientKey:  Lo76CrPfh084PbybDp9WXo+PlBIvSsFp8glFBe/dYz8NBMjBaGwmerjeoROMGqMdFmNXUe9sqjEvXJDYS5qorw==
+05/22/26 06:29:04 [STAT] LOGIN           PatchClientLogin.cpp 0479 Is Steam Build = 0
+05/22/26 06:29:04 [STAT] LOGIN           PatchClientLogin.cpp 0485 Message Data: IsSteamPatcher 0
+05/22/26 06:29:04 [DBGM] CORE_PATCH_CLNT PatchClientLogin.cpp 0725 MSG_USER_AUTHEN_RSP: Success. Paying=1
+05/22/26 06:29:04 [STAT] CORE_PATCH_CLNT PatchClientLogin.cpp 0260 Disconnecting from Login Server
+05/22/26 06:29:04 [STAT] CORE_PATCH_CLNT PatchClientLogin.cpp 0531 Disconnected from Login Server
+05/22/26 06:29:04 [STAT] CORE_PATCH_CLNT PatchClientLogin.cpp 0322 Post Login stopped
+05/22/26 06:29:04 [STAT] CORE_PATCH_CLNT PatchClient.cpp      1236 User login successful
+05/22/26 06:29:04 [STAT] CORE_PATCH_CLNT PatchClient.cpp      0776 Lead copy the patch client files.
+05/22/26 06:29:04 [STAT] CURRENT_STATE   PatchInterface.cpp   1082 CPatchInterface::OnPCStateChange() m_currentState='Authen', a_newState=3.
+05/22/26 06:29:04 [STAT] CURRENT_STATE   PatchInterface.cpp   0973 CPatchInterface::OnReportFileProgressToUI() m_currentState='File/Backing up files...', m_fileProgress=50.
+05/22/26 06:29:04 [STAT] CORE_PATCH_CLNT PatchClient.cpp      1055 Duplicating files from D:\Wizard101_client_04_2019\Wizard101 April of 2019\PatchClient/BankB/ to D:\Wizard101_client_04_2019\Wizard101 April of 2019\PatchClient/BankA/
+05/22/26 06:29:04 [STAT] CORE_PATCH_CLNT PatchClient.cpp      1055 Duplicating files from D:\Wizard101_client_04_2019\Wizard101 April of 2019\PatchClient/BankB/English/ to D:\Wizard101_client_04_2019\Wizard101 April of 2019\PatchClient/BankA/English/
+05/22/26 06:29:04 [STAT] CORE_PATCH_CLNT PatchClient.cpp      1055 Duplicating files from D:\Wizard101_client_04_2019\Wizard101 April of 2019\PatchClient/BankB/locales/ to D:\Wizard101_client_04_2019\Wizard101 April of 2019\PatchClient/BankA/locales/
+05/22/26 06:29:04 [STAT] CORE_PATCH_CLNT PatchClient.cpp      1055 Duplicating files from D:\Wizard101_client_04_2019\Wizard101 April of 2019\PatchClient/BankB/web/ to D:\Wizard101_client_04_2019\Wizard101 April of 2019\PatchClient/BankA/web/
+05/22/26 06:29:04 [STAT] CORE_PATCH_CLNT PatchClient.cpp      1055 Duplicating files from D:\Wizard101_client_04_2019\Wizard101 April of 2019\PatchClient/BankB/web/English/ to D:\Wizard101_client_04_2019\Wizard101 April of 2019\PatchClient/BankA/web/English/
+05/22/26 06:29:04 [STAT] CORE_PATCH_CLNT PatchClient.cpp      1055 Duplicating files from D:\Wizard101_client_04_2019\Wizard101 April of 2019\PatchClient/BankB/web/English/images/ to D:\Wizard101_client_04_2019\Wizard101 April of 2019\PatchClient/BankA/web/English/images/

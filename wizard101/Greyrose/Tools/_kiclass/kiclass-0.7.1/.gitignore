@@ -1,0 +1,10 @@
+target/
+Cargo.lock
+*.cdb
+*.aad
+*.vdf
+*.xml
+*.json
+Cargo.lock
+dist/
+venv/

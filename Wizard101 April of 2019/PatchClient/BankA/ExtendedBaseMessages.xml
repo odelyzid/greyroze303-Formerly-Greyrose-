@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<BaseMessages>
+<_ProtocolInfo>
+  <RECORD>
+    <ServiceID TYPE="UBYT">2</ServiceID>
+    <ProtocolType TYPE="STR">EXTENDEDBASE</ProtocolType>
+    <ProtocolVersion TYPE="INT">1</ProtocolVersion>
+    <ProtocolDescription TYPE="STR">Lower level messages for passing DML and RAW string</ProtocolDescription>
+  </RECORD>
+</_ProtocolInfo>
+<MSG_RAW_TEXT>
+  <RECORD>
+    <_MsgName TYPE="STR" NOXFER="TRUE">MSG_RAW_TEXT</_MsgName>
+    <_MsgDescription TYPE="STR" NOXFER="TRUE">Raw Text Message.</_MsgDescription>
+    <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_RawText</_MsgHandler>
+    <Message TYPE="STR"></Message>
+  </RECORD>
+</MSG_RAW_TEXT>
+<MSG_CUSTOMDICT>
+  <RECORD>
+    <_MsgName TYPE="STR" NOXFER="TRUE">MSG_CUSTOMDICT</_MsgName>
+    <_MsgDescription TYPE="STR" NOXFER="TRUE">Custom Dictionary Message - Prep for CUSTOMRECORD</_MsgDescription>
+    <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_CustomDict</_MsgHandler>
+  </RECORD>
+</MSG_CUSTOMDICT>
+<MSG_CUSTOMRECORD>
+  <RECORD>
+    <_MsgName TYPE="STR" NOXFER="TRUE">MSG_CUSTOMRECORD</_MsgName>
+    <_MsgDescription TYPE="STR" NOXFER="TRUE">Custom Record Message (using format specified by CUSTOMDICT)</_MsgDescription>
+    <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_CustomRecord</_MsgHandler>
+  </RECORD>
+</MSG_CUSTOMRECORD>
+<MSG_RAWRECORD>
+  <RECORD>
+    <_MsgName TYPE="STR" NOXFER="TRUE">MSG_RAWRECORD</_MsgName>
+    <_MsgDescription TYPE="STR" NOXFER="TRUE">DMLRecord streamed with dynamic structure.</_MsgDescription>
+    <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_RawRecord</_MsgHandler>
+  </RECORD>
+</MSG_RAWRECORD>
+<MSG_SERVERMESSAGE>
+  <RECORD>
+    <_MsgName TYPE="STR" NOXFER="TRUE">MSG_SERVERMESSAGE</_MsgName>
+    <_MsgDescription TYPE="STR" NOXFER="TRUE">A generic messaging service.</_MsgDescription>
+    <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_ServerMessage</_MsgHandler>
+    <Modal TYPE="UBYT"></Modal>
+    <Message TYPE="WSTR"></Message>
+  </RECORD>
+</MSG_SERVERMESSAGE>
+<MSG_FORCE_DISCONNECT>
+  <RECORD>
+     <_MsgName TYPE="STR" NOXFER="TRUE">MSG_FORCE_DISCONNECT</_MsgName>
+     <_MsgDescription TYPE="STR" NOXFER="TRUE">The server is forcing the player to disconnect.</_MsgDescription>
+     <_MsgHandler TYPE="STR" NOXFER="TRUE">MSG_Force_Disconnect</_MsgHandler>
+     <Type TYPE="UINT"></Type>
+     <TimeStamp TYPE="STR"></TimeStamp>
+	  <Message TYPE="STR"></Message>
+  </RECORD>
+</MSG_FORCE_DISCONNECT>
+</BaseMessages>

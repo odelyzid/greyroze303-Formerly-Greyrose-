@@ -1,0 +1,40 @@
+use super::{
+    builtins::{
+        Color, Matrix3x3, PointFloat, PointInt, PointUInt, RectFloat, RectInt, RectUInt,
+        SizeFloat, SizeInt, SizeUInt, UUniqueID, Vector3D,
+    },
+    layout::EnumValueData,
+};
+
+#[derive(Debug, Clone)]
+pub enum DefaultKIFieldValue {
+    U8(u8),
+    I8(i8),
+    U16(u16),
+    I16(i16),
+    U32(u32),
+    I32(i32),
+    U64(u64),
+    I64(i64),
+    F32(f32),
+    F64(f64),
+    Bool(bool),
+    String(String),
+    WString(String),
+    BitInt(u64),
+    Gid(u64),
+    Vector3D(Vector3D),
+    PointFloat(PointFloat),
+    PointInt(PointInt),
+    PointUInt(PointUInt),
+    RectFloat(RectFloat),
+    RectInt(RectInt),
+    RectUInt(RectUInt),
+    Matrix3x3(Matrix3x3),
+    SizeInt(SizeInt),
+    SizeFloat(SizeFloat),
+    SizeUInt(SizeUInt),
+    UUniqueID(UUniqueID),
+    Color(Color),
+    Enum(EnumValueData),
+}

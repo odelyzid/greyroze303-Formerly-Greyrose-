@@ -1,0 +1,134 @@
+<Objects>
+    <Class Name="class BlobDirectory">
+        <m_blobDefinitionList>
+            <Class Name="class BlobDefinition">
+                <m_type>Housing</m_type>
+                <m_subType>Music</m_subType>
+                <m_versionNumber>501</m_versionNumber>
+                <m_packageNumber>0</m_packageNumber>
+                <m_associatedGID>GID:178455135359241442</m_associatedGID>
+                <m_epochDays>1484825152</m_epochDays>
+            </Class>
+        </m_blobDefinitionList>
+        <m_blobDefinitionList>
+            <Class Name="class BlobDefinition">
+                <m_type>Housing</m_type>
+                <m_subType>Garden</m_subType>
+                <m_versionNumber>16214</m_versionNumber>
+                <m_packageNumber>0</m_packageNumber>
+                <m_associatedGID>GID:178455135359241442</m_associatedGID>
+                <m_epochDays>1485772672</m_epochDays>
+            </Class>
+        </m_blobDefinitionList>
+        <m_blobDefinitionList>
+            <Class Name="class BlobDefinition">
+                <m_type>Housing</m_type>
+                <m_subType>Magic</m_subType>
+                <m_versionNumber>654</m_versionNumber>
+                <m_packageNumber>0</m_packageNumber>
+                <m_associatedGID>GID:178455135359241442</m_associatedGID>
+                <m_epochDays>1538839552</m_epochDays>
+            </Class>
+        </m_blobDefinitionList>
+        <m_blobDefinitionList>
+            <Class Name="class BlobDefinition">
+                <m_type>Housing</m_type>
+                <m_subType>Teleport</m_subType>
+                <m_versionNumber>516</m_versionNumber>
+                <m_packageNumber>0</m_packageNumber>
+                <m_associatedGID>GID:178455135359241442</m_associatedGID>
+                <m_epochDays>1532155072</m_epochDays>
+            </Class>
+        </m_blobDefinitionList>
+        <m_blobDefinitionList>
+            <Class Name="class BlobDefinition">
+                <m_type>Housing</m_type>
+                <m_subType>Monster</m_subType>
+                <m_versionNumber>128</m_versionNumber>
+                <m_packageNumber>0</m_packageNumber>
+                <m_associatedGID>GID:178455135359241442</m_associatedGID>
+                <m_epochDays>-1670217984</m_epochDays>
+            </Class>
+        </m_blobDefinitionList>
+        <m_blobDefinitionList>
+            <Class Name="class BlobDefinition">
+                <m_type>Housing</m_type>
+                <m_subType>Pet</m_subType>
+                <m_versionNumber>613</m_versionNumber>
+                <m_packageNumber>0</m_packageNumber>
+                <m_associatedGID>GID:178455135359241442</m_associatedGID>
+                <m_epochDays>1483951072</m_epochDays>
+            </Class>
+        </m_blobDefinitionList>
+        <m_blobDefinitionList>
+            <Class Name="class BlobDefinition">
+                <m_type>Housing</m_type>
+                <m_subType>Item</m_subType>
+                <m_versionNumber>2433</m_versionNumber>
+                <m_packageNumber>0</m_packageNumber>
+                <m_associatedGID>GID:178455135359241442</m_associatedGID>
+                <m_epochDays>1483956832</m_epochDays>
+            </Class>
+        </m_blobDefinitionList>
+        <m_blobDefinitionList>
+            <Class Name="class BlobDefinition">
+                <m_type>Housing</m_type>
+                <m_subType>Interact</m_subType>
+                <m_versionNumber>610</m_versionNumber>
+                <m_packageNumber>0</m_packageNumber>
+                <m_associatedGID>GID:178455135359241442</m_associatedGID>
+                <m_epochDays>1483979872</m_epochDays>
+            </Class>
+        </m_blobDefinitionList>
+        <m_blobDefinitionList>
+            <Class Name="class BlobDefinition">
+                <m_type>Housing</m_type>
+                <m_subType>Pet</m_subType>
+                <m_versionNumber>629</m_versionNumber>
+                <m_packageNumber>1</m_packageNumber>
+                <m_associatedGID>GID:178455135359241442</m_associatedGID>
+                <m_epochDays>1483987072</m_epochDays>
+            </Class>
+        </m_blobDefinitionList>
+        <m_blobDefinitionList>
+            <Class Name="class BlobDefinition">
+                <m_type>Housing</m_type>
+                <m_subType>Mount</m_subType>
+                <m_versionNumber>598</m_versionNumber>
+                <m_packageNumber>0</m_packageNumber>
+                <m_associatedGID>GID:178455135359241442</m_associatedGID>
+                <m_epochDays>1483987072</m_epochDays>
+            </Class>
+        </m_blobDefinitionList>
+        <m_blobDefinitionList>
+            <Class Name="class BlobDefinition">
+                <m_type>Housing</m_type>
+                <m_subType>Sign</m_subType>
+                <m_versionNumber>182</m_versionNumber>
+                <m_packageNumber>0</m_packageNumber>
+                <m_associatedGID>GID:178455135359241442</m_associatedGID>
+                <m_epochDays>-2002012704</m_epochDays>
+            </Class>
+        </m_blobDefinitionList>
+        <m_blobDefinitionList>
+            <Class Name="class BlobDefinition">
+                <m_type>Housing</m_type>
+                <m_subType>SeedShed</m_subType>
+                <m_versionNumber>604</m_versionNumber>
+                <m_packageNumber>0</m_packageNumber>
+                <m_associatedGID>GID:178455135359241442</m_associatedGID>
+                <m_epochDays>1560769312</m_epochDays>
+            </Class>
+        </m_blobDefinitionList>
+        <m_blobDefinitionList>
+            <Class Name="class BlobDefinition">
+                <m_type>Housing</m_type>
+                <m_subType>Fish</m_subType>
+                <m_versionNumber>494</m_versionNumber>
+                <m_packageNumber>0</m_packageNumber>
+                <m_associatedGID>GID:178455135359241442</m_associatedGID>
+                <m_epochDays>1579798912</m_epochDays>
+            </Class>
+        </m_blobDefinitionList>
+    </Class>
+</Objects>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+  <root>
+  <GameDataDirectory path="./" /> 
+  <PatchServerHostname host="patch.us.wizard101.com" /> 
+  <PatchServerPort port="12500" /> 
+  <LoginHostname host="login.us.wizard101.com" /> 
+  <LoginPort port="12000" /> 
+  <GameClientExecutable file="WizardGraphicalClient.exe" /> 
+  <CommandLine args="-L login.us.wizard101.com 12000" /> 
+  <HomeURL path="https://www.wizard101.com" /> 
+  <NewsURL path="https://www.wizard101.com/patchClient" /> 
+  <RegistrationURL path="https://www.wizard101.com" /> 
+  <MyAccountURL path="https://www.wizard101.com" />
+  <PatchErrorURL path="https://www.wizard101.com/patchClient/error/" /> 
+  <FallBackURL path="http://version.us.wizard101.com/emergency.html" />
+  <SilentMetricsURL path="https://www.wizard101.com/static/noop.html"/>
+  <GameOptions path="" /> 
+  <AppStartRegistryKey key="Wizard101" /> 
+  <GameSpecificRegistry registry="Software\KingsIsle\Wizard101" />
+  <PatchClientIDRegKey key="UUID"/>
+  <PatchClientIDRegistry registry="Software\KingsIsle"/>
+  <ServerListURL path="" />
+  <FailSafeURL path="https://www.wizard101.com/GameService/checkPatchClientVersion?domain=wizard101&version=" />
+  <EulaURL path="" />
+  </root>

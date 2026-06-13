@@ -1,0 +1,23 @@
+05/22/26 06:29:37 [WARN] CORE_PATCH_CLNT PatchClientConfig.cpp 0154 Unable to read optional parameter PatchClientDataDir from the config file.
+05/22/26 06:29:37 [WARN] CORE_PATCH_CLNT PatchClientConfig.cpp 0154 Unable to read optional parameter LocalNewsURL from the config file.
+05/22/26 06:29:37 [WARN] CORE_PATCH_CLNT PatchClientConfig.cpp 0154 Unable to read optional parameter PatchInfoDirectory from the config file.
+05/22/26 06:29:39 [STAT] KIPatchClient   PatchClientUI.cpp    0363 Patch found, downloading fail safe patch: CRC = 0, URL = 
+05/22/26 06:29:39 [ERRO] KIPatchClient   PatchClientUI.cpp    0390 1085608540 Failed to download fail safe patch from 
+05/22/26 06:29:41 [STAT] PLAT_NET        KIOSSocket.cpp       1171 gethostname(DESKTOP-LFQBR4J) returned 0
+05/22/26 06:29:41 [STAT] PATCH_CLIENT    PatchInterface.cpp   1194 CPatchInterface::GenerateDiagnosticData() NeverRunGame 0, NeverLoggedIn 0
+05/22/26 06:29:41 [STAT] RESMGR          ResourceManager.cpp  0206 ResourceManager releasing data.
+05/22/26 06:29:41 [STAT] RESMGR          ResourceManager.cpp  0198 Loading CSR data.
+05/22/26 06:29:41 [STAT] MessageManager  messagemanager.cpp   0179    Protocol Type: SYSTEM : All Common System Messages - Not Game Messages
+05/22/26 06:29:41 [STAT] MessageManager  messagemanager.cpp   0205    Message Module: SYSTEM : Loaded OK
+05/22/26 06:29:41 [STAT] MessageManager  messagemanager.cpp   0179    Protocol Type: EXTENDEDBASE : Lower level messages for passing DML and RAW string
+05/22/26 06:29:41 [STAT] MessageManager  messagemanager.cpp   0205    Message Module: EXTENDEDBASE : Loaded OK
+05/22/26 06:29:41 [STAT] MessageManager  messagemanager.cpp   0179    Protocol Type: LOGIN : Login Server Messages
+05/22/26 06:29:41 [STAT] MessageManager  messagemanager.cpp   0205    Message Module: LOGIN : Loaded OK
+05/22/26 06:29:41 [STAT] CURRENT_STATE   PatchInterface.cpp   1082 CPatchInterface::OnPCStateChange() m_currentState='Unauthen', a_newState=1.
+05/22/26 06:29:41 [STAT] PATCH_CLIENT    PatchInterface.cpp   0549 Loading webpages in default mode.
+05/22/26 06:29:41 [STAT] PATCH_CLIENT    PatchInterface.cpp   0588 Visiting URL: https://www.wizard101.com/patchClient/Paid
+05/22/26 06:29:41 [STAT] PATCH_CLIENT    PatchInterface.cpp   0592 CPatchInterface::InitDialog() GotoPage(https://www.wizard101.com/patchClient/Paid)
+05/22/26 06:29:41 [STAT] PATCH_CLIENT    PatchInterface.cpp   0739 GotoPage - https://www.wizard101.com/patchClient/Paid
+05/22/26 06:29:41 [STAT] PATCH_CLIENT    PatchInterface.cpp   0256 CPatchClientUIDlg::GotoPage() Navigate(https://www.wizard101.com/patchClient/Paid)
+05/22/26 06:29:44 [STAT] PATCH_CLIENT    PatchInterface.cpp   0256 Web page https://www.wizard101.com/patchClient/Paid document has completed loading
+05/22/26 06:30:02 [STAT] CORE_PATCH_CLNT PatchClient.cpp      0363 PatchClient::Stop

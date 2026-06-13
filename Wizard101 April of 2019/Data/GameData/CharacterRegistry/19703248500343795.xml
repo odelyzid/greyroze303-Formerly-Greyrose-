@@ -1,0 +1,83 @@
+<Objects>
+    <Class Name="class CharacterRegistry">
+        <m_displayedTips>GID:1233646</m_displayedTips>
+        <m_displayedTips>GID:1452024</m_displayedTips>
+        <m_displayedTips>GID:1378067</m_displayedTips>
+        <m_displayedTips>GID:1300055</m_displayedTips>
+        <m_displayedTips>GID:1370047</m_displayedTips>
+        <m_displayedTips>GID:1381081</m_displayedTips>
+        <m_displayedTips>GID:741217</m_displayedTips>
+        <m_displayedTips>GID:1401113</m_displayedTips>
+        <m_displayedTips>GID:1397520</m_displayedTips>
+        <m_displayedTips>GID:1413218</m_displayedTips>
+        <m_displayedTips>GID:1413214</m_displayedTips>
+        <m_displayedTips>GID:1448008</m_displayedTips>
+        <m_displayedTips>GID:1201769</m_displayedTips>
+        <m_finishedTips>GID:1217538</m_finishedTips>
+        <m_finishedTips>GID:1381069</m_finishedTips>
+        <m_finishedTips>GID:470247</m_finishedTips>
+        <m_finishedTips>GID:211502</m_finishedTips>
+        <m_finishedTips>GID:342266</m_finishedTips>
+        <m_finishedTips>GID:1435078</m_finishedTips>
+        <m_finishedTips>GID:1346037</m_finishedTips>
+        <m_finishedTips>GID:100471</m_finishedTips>
+        <m_friendList>
+            <Class Name="struct FriendData">
+                <m_gid>GID:191965934128408379</m_gid>
+                <m_schoolName>Fire</m_schoolName>
+                <m_schoolRank>Visionary</m_schoolRank>
+                <m_schoolLevel>130</m_schoolLevel>
+                <m_petTemplateID>1</m_petTemplateID>
+            </Class>
+        </m_friendList>
+        <m_friendList>
+            <Class Name="struct FriendData">
+                <m_gid>GID:191965934121636507</m_gid>
+                <m_schoolName>Storm</m_schoolName>
+                <m_schoolRank>Visionary</m_schoolRank>
+                <m_schoolLevel>130</m_schoolLevel>
+                <m_petTemplateID>1</m_petTemplateID>
+            </Class>
+        </m_friendList>
+        <m_friendList>
+            <Class Name="struct FriendData">
+                <m_gid>GID:192247409110510795</m_gid>
+                <m_schoolName>Balance</m_schoolName>
+                <m_schoolRank>Promethean</m_schoolRank>
+                <m_schoolLevel>91</m_schoolLevel>
+                <m_petTemplateID>1392770</m_petTemplateID>
+            </Class>
+        </m_friendList>
+        <m_friendList>
+            <Class Name="struct FriendData">
+                <m_gid>GID:1688849911943611</m_gid>
+                <m_schoolName>Life</m_schoolName>
+                <m_schoolRank>Champion</m_schoolRank>
+                <m_schoolLevel>123</m_schoolLevel>
+                <m_petTemplateID>1470048</m_petTemplateID>
+            </Class>
+        </m_friendList>
+        <m_friendList>
+            <Class Name="struct FriendData">
+                <m_gid>GID:1688849966561291</m_gid>
+                <m_schoolName>Life</m_schoolName>
+                <m_schoolRank>Prodigious</m_schoolRank>
+                <m_schoolLevel>116</m_schoolLevel>
+                <m_petTemplateID>1392226</m_petTemplateID>
+            </Class>
+        </m_friendList>
+        <m_friendList>
+            <Class Name="struct FriendData">
+                <m_gid>GID:19703248505662507</m_gid>
+                <m_schoolName>Storm</m_schoolName>
+                <m_schoolRank>Exalted</m_schoolRank>
+                <m_schoolLevel>104</m_schoolLevel>
+                <m_petTemplateID>1392775</m_petTemplateID>
+            </Class>
+        </m_friendList>
+        <m_activeQuestId>GID:148337312831502775</m_activeQuestId>
+        <m_activeGoalId>2559431</m_activeGoalId>
+        <m_activeGoalSetByPlayer>0</m_activeGoalSetByPlayer>
+        <m_crownShopSettings />
+    </Class>
+</Objects>
